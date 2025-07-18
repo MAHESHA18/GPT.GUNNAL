@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mahesha18.github.io/GPT.GUNNAL/sitemap.xml
