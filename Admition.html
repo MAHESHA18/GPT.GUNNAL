@@ -6,10 +6,56 @@
     <title>Admision page</title>
 </head>
 <body>
-     <h1>Admission Information</h1>
-     <h2>Courses Available </h2>
-     <ul><li>COMPUTER SCIENCE</li><li>AET</li><li>END</li></ul>
+     <h2>Admission Form</h2>
+<form action="https://formsubmit.co/el/pazuvi" method="POST">
 
+  <label>Full Name:</label><br>
+  <input type="text" name="name" required><br><br>
+
+  <label>Date of Birth:</label><br>
+  <input type="date" name="dob" required><br><br>
+
+  <label>Gender:</label><br>
+  <select name="gender" required>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Other</option>
+  </select><br><br>
+
+  <label>Parent/Guardian Name:</label><br>
+  <input type="text" name="guardian" required><br><br>
+
+  <label>Contact Number:</label><br>
+  <input type="tel" name="phone" required><br><br>
+
+  <label>Email ID:</label><br>
+  <input type="email" name="email" required><br><br>
+
+  <label>Course Applying For:</label><br>
+  <input type="text" name="course" required><br><br>
+
+  <label>Previous Education:</label><br>
+  <input type="text" name="education" required><br><br>
+
+  <label>Marks Obtained:</label><br>
+  <input type="text" name="marks" required><br><br>
+
+  <label>Address:</label><br>
+  <textarea name="address" rows="4" required></textarea><br><br>
+
+  <label>Pincode:</label><br>
+  <input type="text" name="pincode" required><br><br>
+
+  <label>State:</label><br>
+  <input type="text" name="state" required><br><br>
+
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://mahesha18.github.io/thankyou.html">
+
+  <input type="checkbox" required> I declare that the information is true.<br><br>
+
+  <button type="submit">Submit Admission</button>
+</form>
      
 
     <a href="./index.html">GO TO HOME PAGE</a>
