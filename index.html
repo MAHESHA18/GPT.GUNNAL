@@ -123,23 +123,22 @@
 
   <!-- Paste this below or anywhere inside <body> -->
   <h2>Contact Us</h2>
-  <div>
-    <form action="maheshakori18@gmail.com" method="POST">
-      <label for="name">Your Name:</label><br>
-      <input type="text" name="name" id="name" required><br><br>
+    <div class="contact-container">
+      <form action="https://api.web3forms.com/submit" method="POST"class="contact-left">
+        <div class="contact-left-title">
+          <h2>Fill The From</h2>
+          <hr>
+        </div>
+        <input type="hidden" name="access_key" value="03222e15-3c59-46dc-85f6-971a25cb96d3">
+        <input type="text" Name="Name" placeholder="your name" class="contact-inputs" required>
+        <input type="email" Name="email" placeholder="your email" class="contact-inputs" required>
+        <textarea name="message" placeholder="your message" class="contact-inputs" required></textarea>
+        <button type="submit">submit </button>
+      </form>
+     </div>
+     <div class="contact-right">
 
-      <label for="email">Your Email:</label><br>
-      <input type="email" name="email" id="email" required><br><br>
-
-      <label for="message">Message:</label><br>
-      <textarea name="message" id="message" rows="5" required></textarea><br><br>
-
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
-
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
+     </div>
 
 
   <footer>
