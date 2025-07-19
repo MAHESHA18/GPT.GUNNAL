@@ -1,37 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME PAGE</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ನಮ್ಮ ಕಾಲೇಜು</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #000;
+      color: #4efc99;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .info {
+      text-align: left;
+      margin-bottom: 30px;
+    }
+
+    .info h3 {
+      color: maroon;
+    }
+
+    .image-center {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .image-center img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 8px;
+    }
+
+    .form {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .form input[type="text"],
+    .form input[type="email"] {
+      padding: 10px;
+      width: 40%;
+      margin: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .form button {
+      padding: 10px 20px;
+      background-color: #008CBA;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .form button:hover {
+      background-color: #005f73;
+    }
+
+    .links {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .links a {
+      display: block;
+      margin: 8px 0;
+      color: #2a00b8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #e1e1e1;
+      color: #333;
+    }
+  </style>
 </head>
 <body>
-    <h1>ನಮ್ಮ ಕಾಲೇಜಿಗೆ ಸ್ವಾಗತ</h1>
-    <p><strong>College Code:</strong> 707</p>
-    <ul><li><h2>Villegi : Gunnal</h2>
-    </li><li><h4>District  : Koppal</h4></li><li><h4>Taluk : Yelbruga</h4></li></ul>
 
-    <div style="text-align: center;">
-    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4noPTwOdOAp9db8lW4fM-WLv9hHFxXg2jGrQtDIvDPiAHSMpAx6sIAliou4oGAZA_LYQDTmTLKiaSUbTBZ9unovWAgdK_Pc3Z6dvutBAVs5y_H625vhxiHDwR6XlhbEvJCCi_mGs=s680-w680-h510-rw" alt="College Image" style="width: 60%;">
+  <header>ನಮ್ಮ ಕಾಲೇಜಿಗೆ ಸ್ವಾಗತ</header>
+
+  <div class="container">
+
+    <div class="info">
+      <p><strong>College Code:</strong> 5421</p>
+      <h3>📍 Village: Gunnel</h3>
+      <p><strong>District:</strong> Koppal</p>
+      <p><strong>Taluk:</strong> Yelburga</p>
+    </div>
+
+    <div class="image-center">
+      <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4noPTwOdOAp9db8lW4fM-WLv9hHFxXg2jGrQtDIvDPiAHSMpAx6sIAliou4oGAZA_LYQDTmTLKiaSUbTBZ9unovWAgdK_Pc3Z6dvutBAVs5y_H625vhxiHDwR6XlhbEvJCCi_mGs=s680-w680-h510-rw" alt="College Photo">
+    </div>
+
+    <div class="form">
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <button>Send</button>
+    </div>
+
+    <div class="links">
+      <a href="about.html">➡️ GO TO ABOUT PAGE</a>
+      <a href="admission.html">➡️ GO TO ADMISSION PAGE</a>
+      <a href="courses.html">➡️ GO TO COURSES PAGE</a>
+      <a href="facilities.html">➡️ GO TO FACILITIES PAGE</a>
+      <a href="contact.html">➡️ GO TO CONTACT PAGE</a>
+    </div>
+
   </div>
-  <form action="https://formsubmit.co/maheshkori074@gmail.com" method="POST">
-  <input type="text" name="name" placeholder="Your Name" required><br>
-  <input type="email" name="email" placeholder="Your Email" required><br>
 
-  <!-- Optional: Redirect to thank you page -->
-  <input type="hidden" name="_next" value="https://maheshkori.github.io/thankyou.html">
+  <footer>
+    Thanks for visiting my website!
+  </footer>
 
-  <button type="submit">Send</button>
-</form>
-
-
-
-    <ul><li><a href="./About.html">GO TO ABOUT PAGE</a></li>
-    <li><a href="./Admition.html">GO TO ADMITION PAGE</a></li>
-    <li><a href="./Courses.html">GO TO COURSES PAGE</a></li>
-    <li><a href="./Facilitis.html">GO TO FACILITIES PAGE</a></li>
-    <li><a href="./Contact.html">GO TO CONTACT PAGE</a></li></ul>
-    <link rel="stylesheet" href="./css/style.css">
-    <h5>thanks for visit my website</h5>
 </body>
 </html>
